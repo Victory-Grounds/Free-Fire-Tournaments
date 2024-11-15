@@ -10,10 +10,33 @@
   <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ9Qvq0Tfy5Zq1Vh8prwbv0a5MvZImXPySPFllstth7E41T7jYa-WEaKLs7obTHOAtImOt0ez0cyaz_PsDY-ktnJmK1X9RnrSGy0tqFSc-_trR9a7FWjTT4GCZOBvs00NoZ0otX5eLoOlJV4P_Dh3kA9rjxP9DtBreA4kPfJ2fOTcYxGhoWqCaQd7Q6G8/s537/Picsart_24-11-12_09-43-15-314-removebg-preview-removebg-preview.png">
   <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Poppins&display=swap" rel="stylesheet">
   <style>
+@media (max-width: 768px) {
+  .top-section {
+    padding: 40px 10px;  /* Reduced padding for mobile */
+  }
 
+  .header h1 {
+    font-size: 2.5em;  /* Adjusted font size for mobile */
+  }
+}
+@media (max-width: 768px) {
+  .player {
+    font-size: 14px;
+    margin-bottom: 15px;  /* More space between player rows */
+  }
+
+  .player .rank, .player .name, .player .matchplayed {
+    font-size: 16px;  /* Adjust font size for readability */
+  }
+}
+@media (min-width: 1024px) {
+  .footer {
+    padding: 30px;  /* More padding for larger screens */
+  }
+}
     /* General Styles */
     body {
-      background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP83KPoyu9pEosx7k_XxoQVwCqkQ5VlKE7zNY42cDx1I-YjnPmLldI_TL0qehf3WN-agy7awVYkQRg6sVRTXKCukna1fvZ-z-Y6TOdyafhyMvJmghSiM-EE6x4w605GJ01P376CV3ZMDx1p8KQH1mjfrs3ZYnQOVVG5ku5Eio0i100q16T8xG6C4eQREOl/s540/wp7897133_1.jpg') no-repeat center center fixed;
+      background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvyWP2bpF1irF81Uv_MCu0cwPJz7_vHGD8uTZ9Ject14kYigEF8vbQ8qpDJwy2_0GjVuUH_AzTldCYT6DI7W2eKNWMZyR03qCfEDqNItRrxQ6Q2jhSwbkN8qxuwDW6ARHgujuwaT6dxBBO8OQ8ggtyi1FGLjH6S870p2WMwbwF-AuVKM1pYKXALQuUpxIo/s540/wp7897133_1-min.jpg') no-repeat center center fixed;
       background-size: cover;
       color: #ffffff;
       font-family: 'Roboto', sans-serif;
@@ -146,7 +169,7 @@ body {
 
 /* Title */
 .leaderboard h2 {
-    color: orange;
+    color: #ff7f50;
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
@@ -213,10 +236,10 @@ body {
     cursor: pointer;
 }
 
-/* Align Rank, Name, Earnings */
+/* Align Rank, Name, matchplayed */
 .player .rank,
 .player .name,
-.player .earnings {
+.player .matchplayed {
     color: white;
     font-size: 18px;
     text-align: center;
@@ -693,69 +716,72 @@ body {
   <div class="top-section">
     <div class="content">
       <div class="header">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ9Qvq0Tfy5Zq1Vh8prwbv0a5MvZImXPySPFllstth7E41T7jYa-WEaKLs7obTHOAtImOt0ez0cyaz_PsDY-ktnJmK1X9RnrSGy0tqFSc-_trR9a7FWjTT4GCZOBvs00NoZ0otX5eLoOlJV4P_Dh3kA9rjxP9DtBreA4kPfJ2fOTcYxGhoWqCaQd7Q6G8/s537/Picsart_24-11-12_09-43-15-314-removebg-preview-removebg-preview.png" alt="Victory Grounds Logo">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRtGBiZC3Krlpbrj8WzJVHP-O207rj5Yc5SakL8XHaOrlOyHsK_fYZx1reuOijfefWryETdkOq49MXm1zAkH4uKomg6cqYXHZFuQwbLE7MnPFqfZsCYfY8_M6-6kdKczb00k3pHRdBY7fnqNYlCe-8s9uL6d93aUYVywGS4TlMIZVY4I9e5ThgIeGmDMWb/s500/IMG-20241113-WA0044-removebg-preview.png" alt="Victory Grounds Logo">
         <h1>VICTORY GROUNDS</h1>
       </div>
       <div class="divider"></div>
       <h2 class="main-title">Join Free Fire Tournaments, Win Big!</h2>
       <div class="app-preview">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLGK58rRCI0SFbHoyrGM4dN6kDLwP9_NWVSmJVNjZibqrSsmRN_FzS96jaxq-r6HzmQNkp2YvZRQcjw-1j6GmmByPULy-VSdqAonLV8a9zAXOc6tqse0IVaM0-Y7DmnfuuAPP__bqpc5NnhRI1C9Dz45ww3-NF1rWcImBX3IGAyOXMOr0sjhOG43Hl3_Yw/s666/Untitled_design_20241112_140424_0000-removebg-preview.png" alt="App Preview">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpE77eFtDr8t1XhY_gvRYuKeGCm2bmRCPB2KnXLDmAz49U76Be1jiKmVlbsw2ZFBpJfrA7h31NgYB03jv6gN-sRn4NoIkYEI-w0umof3Yynhp8nV2F7UesRtJ1QERUaOHMdtnMv1saGCVIjokBtThbzr3WHuKDL6i3WvVop8eJ9Q15o3honk_7NIhkCXiz/s666/Untitled_design_20241115_133851_0000-removebg-preview-min.png" alt="App Preview">
       </div>
-      <a href="https://your-app-download-link.com" class="download-button">Download Now</a>
+      <a href="https://github.com/Victory-Grounds/Free-FireTournament-App/raw/refs/heads/main/Victory%20Grounds.apk" class="download-button">Download Now</a>
     </div>
   </div>
     <!-- Leaderboard Section -->
 <section class="leaderboard">
-    <h2>Top Earning Players</h2>
+    <h2>Top Players</h2>
 
     <div class="player gold">
-        <span class="rank">1</span>
-        <span class="name">Player One</span>
-        <span class="earnings">$5000</span>
+        <span class="rank">Rank</span>
+        <span class="name">Player Name</span>
+        <span class="matchplayed">Match Played</span>
     </div>
 
     <div class="player platinum">
-        <span class="rank">2</span>
-        <span class="name">Player Two</span>
-        <span class="earnings">$4500</span>
+        <span class="rank">1</span>
+        <span class="name"></span>
+        <span class="matchplayed"></span>
     </div>
 
     <div class="player silver">
+        <span class="rank">2</span>
+        <span class="name"></span>
+        <span class="matchplayed"></span>
+    </div>
+
+    <div class="player">
         <span class="rank">3</span>
-        <span class="name">Player Three</span>
-        <span class="earnings">$4000</span>
+        <span class="name"></span>
+        <span class="matchplayed"></span>
     </div>
 
     <div class="player">
         <span class="rank">4</span>
-        <span class="name">Player Four</span>
-        <span class="earnings">$3500</span>
-    </div>
-
-    <div class="player">
-        <span class="rank">5</span>
-        <span class="name">Player Five</span>
-        <span class="earnings">$3000</span>
+        <span class="name"></span>
+        <span class="matchplayed"></span>
     </div>
 </section>
   <!-- Benefits Section -->
   <div class="bottom-section">
     <div class="benefits">
-      <h2>Why Join Us?</h2>
-      <p>✓ Easy to join tournaments for all levels of players</p>
-      <p>✓ Safe, secure, and fun gaming experience</p>
-      <p>✓ Win exciting rewards and prizes</p>
-      <p>✓ Support for both free and paid tournaments</p>
+      <h2>আমাদের সুবিধাসমূহ
+
+</h2>
+      <p>আমাদের Admin team থেকে দ্রুত Support পাবেন।</p>
+      <p>মাত্র ১৫-২০ মিনিটের মধ্যে আপনার Deposit Request গ্রহণ করে আপনার Account এ টাকা যোগ করা হবে।।</p>
+      <p>প্রতি মাসে সবচেয়ে বেশি Match খেলে সেরা র‌্যাংক অর্জন করে অতিরিক্ত বোনাস জেতার সুযোগ।</p>
+      <p> প্রতি সপ্তাহে Free ম্যাচ খেলার সুযোগ, সাথে আকর্ষণীয় পুরস্কার।</p>
+    <p>প্রতিদিনের Withdraw Request  প্রতিদিন সম্পন্ন করা হয়।</p>
     </div>
   </div>
 
 <!-- Video Section -->
 <div class="videos fade-in">
-  <h2>Watch Our Introduction Videos</h2>
+  <h2>আমাদের টিউটোরিয়াল ভিডিওগুলো দেখুন</h2>
   <div class="video-wrapper">
     <iframe src="https://www.youtube.com/embed/example_video1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-  <h3>Video Title 1</h3>
+  <h3>আমাদের অ্যাপে টাকা কিভাবে যোগ করবেন।</h3>
   
   <!-- Space between first title and 2nd video -->
   <div class="spacer"></div>
@@ -763,37 +789,37 @@ body {
   <div class="video-wrapper">
     <iframe src="https://www.youtube.com/embed/example_video2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-  <h3>Video Title 2</h3>
+  <h3>কিভাবে ম্যাচে জয়েন করবেন।</h3>
 </div>
 <div class="faq">
   <h2>FAQs</h2>
   <div class="faq-item">
     <div class="faq-question">
       <i class="toggle-icon">+</i> <!-- Icon for expand/collapse -->
-      <span>What is the purpose of this app?</span>
+      <span>আপনি ম্যাচে জয়েন করতে পারেননি?</span>
     </div>
     <div class="faq-answer">
-      <p>This app is designed to host Free Fire tournaments, both paid and free, for users to participate in.</p>
+      <p>আমাদের প্রতিটি ম্যাচের রুম আইডি ম্যাচ শুরু হওয়ার ৫ থেকে ৭ মিনিট আগে দেওয়া হয়। আপনাদের হাতে ম্যাচে জয়েন করার জন্য ৫-৭ মিনিট সময় থাকে, যা যথেষ্ট। তবে যদি তারপরও কোন সমস্যা থাকে এবং আপনি ম্যাচে জয়েন করতে না পারেন, তখন দয়া করে দ্রুত আমাদের লাইভ চ্যাটে ম্যাসেজ পাঠান। আপনি যেকোনো সময় আপনার সমস্যা আমাদের জানাতে পারেন, তবে ম্যাচ প্লে সংক্রান্ত সমস্যা শুরু হওয়ার ১-২ মিনিট আগে আমাদের জানানো প্রয়োজন। যদি ম্যাচ শুরু হওয়ার ১ মিনিট পর রিপোর্ট করেন, তবে আমরা সেই সমস্যার সমাধান করতে পারব না।</p>
     </div>
   </div>
 
   <div class="faq-item">
     <div class="faq-question">
       <i class="toggle-icon">+</i>
-      <span>How do I participate in a tournament?</span>
+      <span>আপনারা কবে ফ্রি ম্যাচ আয়োজন করেন?</span>
     </div>
     <div class="faq-answer">
-      <p>To participate, sign up on the app, join an upcoming tournament, and follow the instructions.</p>
+      <p>আমরা প্রতি সপ্তাহে নিয়মিত ফ্রি ম্যাচ আয়োজন করি, যাতে আমাদের ব্যবহারকারীরা বিনামূল্যে খেলতে পারে এবং আকর্ষণীয় পুরস্কার জিততে পারে। এছাড়া, বিশেষ দিন বা উপলক্ষে কিছু বিশেষ ফ্রি ম্যাচও আয়োজন করা হয়, যেখানে আরও বড় পুরস্কার এবং উপহার দেওয়ার ব্যবস্থা থাকে।</p>
     </div>
   </div>
 
   <div class="faq-item">
     <div class="faq-question">
       <i class="toggle-icon">+</i>
-      <span>How can I win a tournament?</span>
+      <span>এখানে কি Duo বা  Squad ম্যাচ রয়েছে? আমি কি আমার পুরো Duo বা Squad এর সাথে জয়েন করতে পারব?</span>
     </div>
     <div class="faq-answer">
-      <p>Victory is earned by performing the best in the tournament, and winning criteria will vary depending on the type of tournament.</p>
+      <p> হ্যাঁ, আমাদের অ্যাপ এ Duo এবং Squad ম্যাচ রয়েছে। তবে, আপনি আপনার পুরো Squad এর সাথে একসাথে জয়েন করতে পারবেন না। আপনার পুরো Squad এর সদস্যদের নিজেদের আলাদা অ্যাকাউন্ট থাকতে হবে এবং প্রত্যেককে তাদের নিজ নিজ অ্যাকাউন্ট থেকে ম্যাচে জয়েন করতে হবে।</p>
     </div>
   </div>
 
